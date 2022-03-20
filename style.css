@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+}
+
+/* header */
+
+header {
+    width: 100%;
+    background-color: rgb(115, 116, 114);
+    padding: 25px 0 25px;
+    
+}
+
+
+li {
+    color: white;
+    font-family: 'Bebas Neue';
+    font-size: 1.5em;
+    margin-right: 30px;
+    display: inline;
+    padding: 0 10px 0;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+/* main */
+
+main {
+    padding: 20px;
+    
+}
+
+.container {
+    border: 1px black;
+    
+    width: 100%; display: table;
+}
+
+/* .container[id=fun] {
+    border: 1px black;
+    background-color:rgb(245, 139, 0);
+    width: 100%; display: table;
+    
+} */
+
+.s_container {
+    display: table-row;
+}
+
+.sel1 {
+    display: table-cell;
+}
+
+.sel1 form {
+    margin-left: 10px;
+}
+
+.data {
+    
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 800px;
+    margin-right: 20px;
+}
+
+.data td {
+    padding: 4px;
+    border: 1px solid;
+}
+
+.t_top td {
+    text-align: center;
+    font-weight: bold;
+}
+
+.no {
+    width: 6%;
+    text-align: center;
+}
+
+.nama {
+    width: 45%;
+}
+
+.nim {
+    width: 15%;
+    text-align: left;
+}
+
+.kelas {
+    width: 10%;
+}
+
+.btn {
+    width: 8%;
+    text-align: center;
+}
+
+.in {
+    border: none;
+}
+
+button {
+    margin: 2px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 7px;
+    margin: 5px 0;
+    border: 1px solid #000000;
+}
+
+
+
+input[type=submit][value=Add] {
+    width: auto;
+    padding: 9px;
+    margin: 5px;
+    
+    border: 2px solid #000000;
+    outline: none;
+    background-color: green;
+    color: white;
+}
+
+input[type=submit][value=Edit] {
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    border: 2px solid #000000;
+    outline: none;
+    background-color: rgb(177, 146, 62);
+    color: white;
+}
+
+input[type=submit][value=Delete] {
+    width: auto;
+    
+    border: 2px solid #000000;
+    outline: none;
+    background-color: rgb(180, 59, 59);
+    color: white;
+}
+
+
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
+
+
+
